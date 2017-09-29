@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E277DF31F559C650077A324 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E277DF21F559C650077A324 /* Dynamic.swift */; };
+		1E277DF71F55B9C60077A324 /* UIToolbar+DoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E277DF61F55B9C60077A324 /* UIToolbar+DoneButton.swift */; };
+		1E277DFB1F55BB6B0077A324 /* UIDatePicker+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E277DFA1F55BB6B0077A324 /* UIDatePicker+Custom.swift */; };
+		1EA20DE81F45A19900A591A8 /* EditTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA20DE71F45A19900A591A8 /* EditTripViewController.swift */; };
+		1EA20DEA1F45A76F00A591A8 /* EditTripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA20DE91F45A76F00A591A8 /* EditTripViewModel.swift */; };
+		1EA477021F43519D00626CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA477011F43519D00626CBF /* AppDelegate.swift */; };
+		1EA477071F43519D00626CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA477051F43519D00626CBF /* Main.storyboard */; };
+		1EA477091F43519D00626CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA477081F43519D00626CBF /* Assets.xcassets */; };
+		1EA4770C1F43519D00626CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA4770A1F43519D00626CBF /* LaunchScreen.storyboard */; };
+		1EA477171F43519E00626CBF /* FRC_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA477161F43519E00626CBF /* FRC_DemoTests.swift */; };
+		1EA477271F43534B00626CBF /* MyTripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA477231F43534B00626CBF /* MyTripsViewModel.swift */; };
+		1EA477281F43534B00626CBF /* MyTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA477241F43534B00626CBF /* MyTripsViewController.swift */; };
+		1EA4772A1F43534B00626CBF /* MyTripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA477261F43534B00626CBF /* MyTripsTableViewCell.swift */; };
+		1EA4772D1F4353C100626CBF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4772B1F4353C100626CBF /* Model.xcdatamodeld */; };
+		1EA477301F43548F00626CBF /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4772E1F43548F00626CBF /* Trip+CoreDataClass.swift */; };
+		1EA477311F43548F00626CBF /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA4772F1F43548F00626CBF /* Trip+CoreDataProperties.swift */; };
+		1EA477331F4355C900626CBF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA477321F4355C900626CBF /* CoreDataStack.swift */; };
+		1EBAA3D91F557DA60082F8E9 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBAA3D81F557DA60082F8E9 /* UIColor+CustomColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EA477131F43519E00626CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EA476F61F43519D00626CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EA476FD1F43519D00626CBF;
+			remoteInfo = "FRC Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E277DF21F559C650077A324 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		1E277DF61F55B9C60077A324 /* UIToolbar+DoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIToolbar+DoneButton.swift"; sourceTree = "<group>"; };
+		1E277DFA1F55BB6B0077A324 /* UIDatePicker+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDatePicker+Custom.swift"; sourceTree = "<group>"; };
+		1EA20DE71F45A19900A591A8 /* EditTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTripViewController.swift; sourceTree = "<group>"; };
+		1EA20DE91F45A76F00A591A8 /* EditTripViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTripViewModel.swift; sourceTree = "<group>"; };
+		1EA476FE1F43519D00626CBF /* Fetched Results Controller Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetched Results Controller Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA477011F43519D00626CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EA477061F43519D00626CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EA477081F43519D00626CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EA4770B1F43519D00626CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EA4770D1F43519D00626CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA477121F43519E00626CBF /* Fetched Results Controller ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetched Results Controller ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA477161F43519E00626CBF /* FRC_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRC_DemoTests.swift; sourceTree = "<group>"; };
+		1EA477181F43519E00626CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA477231F43534B00626CBF /* MyTripsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTripsViewModel.swift; sourceTree = "<group>"; };
+		1EA477241F43534B00626CBF /* MyTripsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTripsViewController.swift; sourceTree = "<group>"; };
+		1EA477261F43534B00626CBF /* MyTripsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTripsTableViewCell.swift; sourceTree = "<group>"; };
+		1EA4772C1F4353C100626CBF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1EA4772E1F43548F00626CBF /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1EA4772F1F43548F00626CBF /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EA477321F4355C900626CBF /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		1EBAA3D81F557DA60082F8E9 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EA476FB1F43519D00626CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA4770F1F43519E00626CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EA476F51F43519D00626CBF = {
+			isa = PBXGroup;
+			children = (
+				1EA477001F43519D00626CBF /* Fetched Results Controller Example */,
+				1EA477151F43519E00626CBF /* Fetched Results Controller ExampleTests */,
+				1EA476FF1F43519D00626CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EA476FF1F43519D00626CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EA476FE1F43519D00626CBF /* Fetched Results Controller Example.app */,
+				1EA477121F43519E00626CBF /* Fetched Results Controller ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EA477001F43519D00626CBF /* Fetched Results Controller Example */ = {
+			isa = PBXGroup;
+			children = (
+				1E277DF21F559C650077A324 /* Dynamic.swift */,
+				1EBAA3D81F557DA60082F8E9 /* UIColor+CustomColors.swift */,
+				1E277DFA1F55BB6B0077A324 /* UIDatePicker+Custom.swift */,
+				1E277DF61F55B9C60077A324 /* UIToolbar+DoneButton.swift */,
+				1EA4772E1F43548F00626CBF /* Trip+CoreDataClass.swift */,
+				1EA4772F1F43548F00626CBF /* Trip+CoreDataProperties.swift */,
+				1EA477321F4355C900626CBF /* CoreDataStack.swift */,
+				1EA477011F43519D00626CBF /* AppDelegate.swift */,
+				1EA477231F43534B00626CBF /* MyTripsViewModel.swift */,
+				1EA477241F43534B00626CBF /* MyTripsViewController.swift */,
+				1EA477261F43534B00626CBF /* MyTripsTableViewCell.swift */,
+				1EA20DE71F45A19900A591A8 /* EditTripViewController.swift */,
+				1EA20DE91F45A76F00A591A8 /* EditTripViewModel.swift */,
+				1EA4772B1F4353C100626CBF /* Model.xcdatamodeld */,
+				1EA477051F43519D00626CBF /* Main.storyboard */,
+				1EA477081F43519D00626CBF /* Assets.xcassets */,
+				1EA4770A1F43519D00626CBF /* LaunchScreen.storyboard */,
+				1EA4770D1F43519D00626CBF /* Info.plist */,
+			);
+			path = "Fetched Results Controller Example";
+			sourceTree = "<group>";
+		};
+		1EA477151F43519E00626CBF /* Fetched Results Controller ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA477161F43519E00626CBF /* FRC_DemoTests.swift */,
+				1EA477181F43519E00626CBF /* Info.plist */,
+			);
+			path = "Fetched Results Controller ExampleTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EA476FD1F43519D00626CBF /* Fetched Results Controller Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA4771B1F43519E00626CBF /* Build configuration list for PBXNativeTarget "Fetched Results Controller Example" */;
+			buildPhases = (
+				1EA476FA1F43519D00626CBF /* Sources */,
+				1EA476FB1F43519D00626CBF /* Frameworks */,
+				1EA476FC1F43519D00626CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fetched Results Controller Example";
+			productName = "FRC Demo";
+			productReference = 1EA476FE1F43519D00626CBF /* Fetched Results Controller Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EA477111F43519E00626CBF /* Fetched Results Controller ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA4771E1F43519E00626CBF /* Build configuration list for PBXNativeTarget "Fetched Results Controller ExampleTests" */;
+			buildPhases = (
+				1EA4770E1F43519E00626CBF /* Sources */,
+				1EA4770F1F43519E00626CBF /* Frameworks */,
+				1EA477101F43519E00626CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA477141F43519E00626CBF /* PBXTargetDependency */,
+			);
+			name = "Fetched Results Controller ExampleTests";
+			productName = "FRC DemoTests";
+			productReference = 1EA477121F43519E00626CBF /* Fetched Results Controller ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EA476F61F43519D00626CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chris Adamson";
+				TargetAttributes = {
+					1EA476FD1F43519D00626CBF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NC74HZ33YN;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					1EA477111F43519E00626CBF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NC74HZ33YN;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1EA476FD1F43519D00626CBF;
+					};
+				};
+			};
+			buildConfigurationList = 1EA476F91F43519D00626CBF /* Build configuration list for PBXProject "Fetched Results Controller Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EA476F51F43519D00626CBF;
+			productRefGroup = 1EA476FF1F43519D00626CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EA476FD1F43519D00626CBF /* Fetched Results Controller Example */,
+				1EA477111F43519E00626CBF /* Fetched Results Controller ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EA476FC1F43519D00626CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA4770C1F43519D00626CBF /* LaunchScreen.storyboard in Resources */,
+				1EA477091F43519D00626CBF /* Assets.xcassets in Resources */,
+				1EA477071F43519D00626CBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA477101F43519E00626CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EA476FA1F43519D00626CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA477301F43548F00626CBF /* Trip+CoreDataClass.swift in Sources */,
+				1EA477311F43548F00626CBF /* Trip+CoreDataProperties.swift in Sources */,
+				1EA477331F4355C900626CBF /* CoreDataStack.swift in Sources */,
+				1EBAA3D91F557DA60082F8E9 /* UIColor+CustomColors.swift in Sources */,
+				1EA477281F43534B00626CBF /* MyTripsViewController.swift in Sources */,
+				1EA477271F43534B00626CBF /* MyTripsViewModel.swift in Sources */,
+				1E277DF71F55B9C60077A324 /* UIToolbar+DoneButton.swift in Sources */,
+				1EA20DEA1F45A76F00A591A8 /* EditTripViewModel.swift in Sources */,
+				1EA477021F43519D00626CBF /* AppDelegate.swift in Sources */,
+				1EA20DE81F45A19900A591A8 /* EditTripViewController.swift in Sources */,
+				1E277DFB1F55BB6B0077A324 /* UIDatePicker+Custom.swift in Sources */,
+				1E277DF31F559C650077A324 /* Dynamic.swift in Sources */,
+				1EA4772A1F43534B00626CBF /* MyTripsTableViewCell.swift in Sources */,
+				1EA4772D1F4353C100626CBF /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA4770E1F43519E00626CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA477171F43519E00626CBF /* FRC_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA477141F43519E00626CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EA476FD1F43519D00626CBF /* Fetched Results Controller Example */;
+			targetProxy = 1EA477131F43519E00626CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EA477051F43519D00626CBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EA477061F43519D00626CBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EA4770A1F43519D00626CBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EA4770B1F43519D00626CBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EA477191F43519E00626CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EA4771A1F43519E00626CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EA4771C1F43519E00626CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = "Fetched Results Controller Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deftapplications.Fetched Results Controller Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1EA4771D1F43519E00626CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = "Fetched Results Controller Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deftapplications.Fetched Results Controller Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		1EA4771F1F43519E00626CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = "FRC DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deftapplications.FRC-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetched Results Controller Example.app/Fetched Results Controller Example";
+			};
+			name = Debug;
+		};
+		1EA477201F43519E00626CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NC74HZ33YN;
+				INFOPLIST_FILE = "FRC DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deftapplications.FRC-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetched Results Controller Example.app/Fetched Results Controller Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EA476F91F43519D00626CBF /* Build configuration list for PBXProject "Fetched Results Controller Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA477191F43519E00626CBF /* Debug */,
+				1EA4771A1F43519E00626CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA4771B1F43519E00626CBF /* Build configuration list for PBXNativeTarget "Fetched Results Controller Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA4771C1F43519E00626CBF /* Debug */,
+				1EA4771D1F43519E00626CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA4771E1F43519E00626CBF /* Build configuration list for PBXNativeTarget "Fetched Results Controller ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA4771F1F43519E00626CBF /* Debug */,
+				1EA477201F43519E00626CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1EA4772B1F4353C100626CBF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EA4772C1F4353C100626CBF /* Model.xcdatamodel */,
+			);
+			currentVersion = 1EA4772C1F4353C100626CBF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1EA476F61F43519D00626CBF /* Project object */;
+}
